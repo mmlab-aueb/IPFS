@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+cat $1 | ./log2plot.py > DATA
+gnuplot graph.gpi
